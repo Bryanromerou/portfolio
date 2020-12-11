@@ -6,6 +6,12 @@
   --color5: #30332f;
 }
 
+.App{
+  padding: 0;
+  width: 100%;
+}
+
+/*************************** Navbar ****************************/
 .myNav{
   padding: 0px 20px;
   display: flex;
@@ -17,18 +23,25 @@
   z-index: 999;
   width: 100%;
 }
-.personalName{
-  display: inline;
-  color: var(--color4);
-  transition: all .2s ease-in-out;
-}
-.personalName:hover{
-  color: #000000;
-}
+
 .personalLogo{
   width: 40px;
   height: auto;
 }
+
+.nav-link{
+  color: rgb(131, 131, 131) !important;
+  font-weight: 100;
+  cursor: pointer !important;
+}
+
+.active {
+  font-weight: 700;
+  border-bottom: 2px solid var(--color2) !important;
+  color: var(--color2) !important;
+}
+
+/*************************** Logos ****************************/
 .logos{
   /* display: flex; */
   /* flex-wrap: wrap; */
@@ -46,11 +59,7 @@
   filter: grayscale(0%);
 }
 
-.App{
-  padding: 0;
-  width: 100%;
-}
-
+/*************************** Sections ****************************/
 section{
   padding-top:8vh;
   padding-bottom:8vh;
@@ -62,6 +71,7 @@ section{
   background: var(--color3);
 }
 #projects {
+  min-height: fit-content;
   background-color:  var(--color4);
   color: white;
 }
@@ -73,34 +83,71 @@ section{
   color: white;
 }
 
+/*************************** About me ****************************/
+.personalName{
+  display: inline;
+  color: var(--color4);
+  transition: all .2s ease-in-out;
+}
+.personalName:hover{
+  color: #000000;
+}
+
 .aboutme-content{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10vh 10vw;
 }
 
+/*************************** Projects ****************************/
 .project{
-  /* background-color: blueviolet; */
   height: 100%;
-  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.nav-link{
-  color: rgb(131, 131, 131) !important;
-  font-weight: 100;
-  cursor: pointer !important;
-}
-.active {
-  font-weight: 700;
-  border-bottom: 2px solid var(--color2) !important;
-  color: var(--color2) !important;
-}
-
 .slider{
   position: absolute !important; 
   width: 100%; 
   height: 100%;
 }
-/* ABOUT ME */
-.aboutme-content{ 
-  margin: 10vh 10vw;
+
+.project-images{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square{
+  margin: 2vw;
+  width: 20vw;
+  height: 20vw;
+}
+.project1 .square{
+  background-color: red;
+}
+.project2 .square{
+  background-color: purple;
+}
+.project3 .square{
+  background-color: blue;
+}
+
+.project_buttons{
+  padding: 5px;
+  width: fit-content;
+  border-radius: 20px;
+  background-color: var(--color1);
+  margin-left: 5vw;
+}
+.btn{
+  width: 70px;
+  margin: 4px;
+}
+.selectplease{
+  display: inline;
+}
+
+.tech-used{
+  z-index: 998;
 }
