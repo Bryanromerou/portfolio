@@ -35,9 +35,9 @@ const AllProjects = () => {
         <section className="allprojects" id="projects">
 
             <div className="project_buttons">
-                <button onClick = {click_1}>1</button>
-                <button onClick = {click_2}>2</button>
-                <button onClick = {click_3}>3</button>
+                {activeNumber == 0 ? <button onClick = {click_1} class="btn btn-dark" >1</button>: <button onClick = {click_1} class="btn btn-light">1</button>}
+                {activeNumber == 1 ? <button onClick = {click_2} class="btn btn-dark">2</button>: <button onClick = {click_2} class="btn btn-light">2</button>}
+                {activeNumber == 2 ? <button onClick = {click_3} class="btn btn-dark">3</button>: <button onClick = {click_3} class="btn btn-light">3</button>}
             </div>
 
             <div className ="myprojects">

@@ -1,7 +1,7 @@
 :root {
   --color1: #191b1b;
   --color2: #d8d6ca;
-  --color3: #cccab5;
+  --color3: #d3d2ce;
   --color4: #4a4d49;
   --color5: #30332f;
 }
@@ -19,6 +19,11 @@
 }
 .personalName{
   display: inline;
+  color: var(--color4);
+  transition: all .2s ease-in-out;
+}
+.personalName:hover{
+  color: #000000;
 }
 .personalLogo{
   width: 40px;
@@ -29,6 +34,7 @@
   /* flex-wrap: wrap; */
 }
 .logo{
+  margin: 10px;
   transition: all .2s ease-in-out;
   width: 70px;
   height: auto;
@@ -67,6 +73,12 @@ section{
   color: white;
 }
 
+.aboutme-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project{
   /* background-color: blueviolet; */
   height: 100%;
@@ -87,4 +99,8 @@ section{
   position: absolute !important; 
   width: 100%; 
   height: 100%;
+}
+/* ABOUT ME */
+.aboutme-content{ 
+  margin: 10vh 10vw;
 }
