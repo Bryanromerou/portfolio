@@ -15,9 +15,10 @@ const Project3 = (props) => {
                 <div className = "square"/>
             </div>
             <div className="project-description">
+                <a href="https://floating-escarpment-82475.herokuapp.com/">Check it Out</a>
                 <h3>Description</h3>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id non molestiae voluptates adipisci culpa, asperiores fugit, pariatur, velit suscipit iure nostrum provident ipsum ipsam quia laboriosam doloribus tempora ut vitae?
+                    <i> Anatomy is Awesome! </i> is a note taking app that is catered to students that are currently attending Anatomy courses. To start just create a profile and adding your name. When creating a user a body will appear just with bones. Pick one of the 4 Major Body Sections (Head, Arms, Legs, and Torso). Once picking on the body section select the muscle to add on to the body. Once the muscle is on the body the user will be able to make notes about that muscle and save it to the database so that others could see their notes. The goal is the completely fill the Skeleton and to take notes worthy of saving.
                 </p>
             </div>
             <div className="tech-used">

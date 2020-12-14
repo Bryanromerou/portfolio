@@ -57,13 +57,13 @@
 .logo:hover { 
   transform: scale(1.1);
   filter: grayscale(0%);
+  z-index: 998;
 }
 
 /*************************** Sections ****************************/
 section{
   padding-top:8vh;
   padding-bottom:8vh;
-  height: 100vh;
   width: 100%;
 }
 
@@ -71,14 +71,19 @@ section{
   background: var(--color3);
 }
 #projects {
-  min-height: fit-content;
+  height: 100vh;
+  min-height: fit-content(20em);
   background-color:  var(--color4);
   color: white;
 }
 #education{
+  height: fit-content !important;
+  min-height: 100vh;
   background-color: var(--color3);
 }
 #experience{
+  height: fit-content !important;
+  min-height: 100vh;
   background-color:  var(--color4);
   color: white;
 }
@@ -132,7 +137,9 @@ section{
 .project3 .square{
   background-color: blue;
 }
-
+.project-description{
+  width: 70%;
+}
 .project_buttons{
   padding: 5px;
   width: fit-content;
@@ -149,5 +156,5 @@ section{
 }
 
 .tech-used{
-  z-index: 998;
+  z-index: 997;
 }

@@ -14,8 +14,10 @@ const Project1 = (props) => {
                 <div className = "square"/>
             </div>
             <div className="project-description">
+                <a href="https://sleepy-mesa-13114.herokuapp.com/">Check it Out!</a>
                 <h3>Description</h3>
                 <p>
+                    <i>Thought Provoking Questions</i> is an app that welcome those who have questions that there are no solid answers to.
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id non molestiae voluptates adipisci culpa, asperiores fugit, pariatur, velit suscipit iure nostrum provident ipsum ipsam quia laboriosam doloribus tempora ut vitae?
                 </p>
             </div>

@@ -6,9 +6,9 @@ const Experience = () => {
     return (
         <section id="experience">
 
-            <h2> Experience </h2>
+            <h2 className = "m-5"> Experience </h2>
             
-            <div className = "experience-listing">
+            <div className = "experience-listing m-5">
                 <img src={frbsfLogo} alt="Federal Reserve Bank Of San Francisco" className = "logo"/>
                 <div className = "experience-listing-text">
                     <h3>Federal Reserve Bank Of San Francisco</h3>
@@ -16,13 +16,12 @@ const Experience = () => {
                 </div>
             </div>
             
-            <div className = "experience-listing">
+            <div className = "experience-listing m-5">
                 <img src={wellsLogo} alt="Wells Fargo" className = "logo"/>
                 <div className = "experience-listing-text">
                     <h3>Wells Fargo</h3>
                     {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi libero quaerat voluptatibus accusamus excepturi unde debitis possimus, voluptas odit, cupiditate quod laudantium tempora, voluptate ad saepe atque nemo optio.</p> */}
                     <p>Worked at Wells Fargo in the Cash Operations for 4 years. Where I learned how to work in a team, meet deadlines, troubleshoot problems and most importantly I learned how to communicate effectively to ensure all task were done. Being that it was my first official Job I took every opportunity given to me and used every experience as a lesson, which gave me an opportunity to move on to the Federal Reserve Bank.</p>
-
                 </div>
             </div>
         

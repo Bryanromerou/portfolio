@@ -5,7 +5,7 @@ import Project2 from './Project2';
 import Project3 from './Project3';
 
 const AllProjects = () => {
-    const [activeNumber, setActiveNumber] = useState(1);
+    const [activeNumber, setActiveNumber] = useState(0);
     const [show1, setShow1] = useState(true);
     const [show2, setShow2] = useState(false);
     const [show3, setShow3] = useState(false);
