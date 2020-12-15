@@ -1,24 +1,38 @@
 import React from 'react';
+import htmlLogo from '../../icons/html.png';
+import jsLogo from '../../icons/js.png';
+import cssLogo from '../../icons/css.png';
+import djangoLogo from '../../icons/django.png';
+import postgresLogo from '../../icons/postgresql.png';
+import firstImage from '../../icons/project2/1.png';
+import secondImage from '../../icons/project2/2.png';
+import thirdImage from '../../icons/project2/3.png';
+import fourthImage from '../../icons/project2/4.png';
 
 const Project2 = (props) => {
     return (
         <div className = "project project2">
             <h2>Wayfayer</h2>
             <div className="project-images">
-                <div className = "square"/>
-                <div className = "square"/>
-                <div className = "square"/>
-                <div className = "square"/>
+                <img src={firstImage} alt="First Picture" className ="square"/>
+                <img src={secondImage} alt="First Picture" className ="square"/>
+                <img src={thirdImage} alt="First Picture" className ="square"/>
+                <img src={fourthImage} alt="First Picture" className ="square"/>
             </div>
             <div className="project-description">
                 <a href="https://dryft.herokuapp.com/">Check it Out</a>
                 <h3>Description</h3>
                 <p>
-                <i> DRYFT</i> is a travel blogging and social site dedicated to those who are always on the move.
+                <i>DRYFT</i> is a travel blogging and social site dedicated to those who are always on the move.
                 To signup, users must enter their relevant profile info, as well as select the city in the world they happen to be in at the moment. Optionally, they can also include a profile picture of themselves. Within the app, the user will be able to find and post about any city in the world as well as comment on the posts other users have made.</p>
             </div>
             <div className="tech-used">
                 <h3>Technology Used: </h3>
+                <img src={htmlLogo} alt="HTML" className ="logoProjects html-logo"/>
+                <img src={cssLogo} alt="CSS" className ="logoProjects"/>
+                <img src={jsLogo} alt="JavaScript" className ="logoProjects js-logo"/>
+                <img src={djangoLogo} alt="Django" className ="logoProjects django-logo"/>
+                <img src={postgresLogo} alt="PostgreSQL" className ="logoProjects postgres-logo"/>
             </div>
         </div>
     );

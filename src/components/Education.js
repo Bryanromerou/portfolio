@@ -8,7 +8,7 @@ const Education = () => {
         <section id="education">
             <div className = "education">
 
-            <h2>My Education</h2>
+            <h2 className="m-5">My Education</h2>
             <div className = "education-listing m-5">
                 <img src={gaLogo} alt="General Assembly" className = "logo"/>
                 <h3>General Assembly</h3>

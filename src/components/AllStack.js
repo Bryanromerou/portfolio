@@ -6,6 +6,7 @@ import htmlLogo from '../icons/html.png';
 import jqueryLogo from '../icons/jquery.png';
 import javascriptLogo from '../icons/js.png';
 import reactLogo from '../icons/react.png';
+import postgresLogo from '../icons/postgresql.png';
 import nodeLogo from '../icons/nodejs.png';
 import mongodbLogo from '../icons/mongodb.png';
 import pythonLogo from '../icons/python.webp';
@@ -24,6 +25,7 @@ const AllStack = () => {
             <img src={pythonLogo} alt="Python" className ="logo  python-logo"/>
             <img src={djangoLogo} alt="Django" className ="logo  django-logo"/>
             <img src={expressLogo} alt="Express" className ="logo express-logo"/>
+            <img src={postgresLogo} alt="PostgreSQL" className ="logo postgresLogo-logo"/>
         </div>
     );
 }

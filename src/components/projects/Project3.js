@@ -3,16 +3,20 @@ import cssLogo from '../../icons/css.png';
 import htmlLogo from '../../icons/html.png';
 import jsLogo from '../../icons/js.png';
 import jqueryLogo from '../../icons/jquery.png';
+import firstImage from '../../icons/project3/1.png';
+import secondImage from '../../icons/project3/2.png';
+import thirdImage from '../../icons/project3/3.png';
+import fourthImage from '../../icons/project3/4.png';
 
 const Project3 = (props) => {
     return (
         <div className = "project project3">
             <h2>Anatomy is awesome!</h2>
             <div className="project-images">
-                <div className = "square"/>
-                <div className = "square"/>
-                <div className = "square"/>
-                <div className = "square"/>
+                <img src={firstImage} alt="First Picture" className ="square"/>
+                <img src={secondImage} alt="First Picture" className ="square"/>
+                <img src={thirdImage} alt="First Picture" className ="square"/>
+                <img src={fourthImage} alt="First Picture" className ="square"/>
             </div>
             <div className="project-description">
                 <a href="https://floating-escarpment-82475.herokuapp.com/">Check it Out</a>
@@ -23,10 +27,10 @@ const Project3 = (props) => {
             </div>
             <div className="tech-used">
                 <h3>Technology Used: </h3>
-                <img src={cssLogo} alt="CSS" className ="logo"/>
-                <img src={htmlLogo} alt="HTML" className ="logo html-logo"/>
-                <img src={jsLogo} alt="JavaScript" className ="logo js-logo"/>
-                <img src={jqueryLogo} alt="JavaScript" className ="logo js-logo"/>
+                <img src={cssLogo} alt="CSS" className ="logoProjects"/>
+                <img src={htmlLogo} alt="HTML" className ="logoProjects html-logo"/>
+                <img src={jsLogo} alt="JavaScript" className ="logoProjects js-logo"/>
+                <img src={jqueryLogo} alt="JavaScript" className ="logoProjects js-logo"/>
             </div>
         </div>
     );

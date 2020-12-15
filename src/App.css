@@ -144,7 +144,7 @@ section{
   padding: 5px;
   width: fit-content;
   border-radius: 20px;
-  background-color: var(--color1);
+  background-color: rgba(0, 0, 0, 0.561);
   margin-left: 5vw;
 }
 .btn{
@@ -157,4 +157,16 @@ section{
 
 .tech-used{
   z-index: 997;
+}
+
+.logoProjects{
+  margin: 10px;
+  width: 70px;
+  height: auto;
+}
+
+.express-logo{
+  margin: 10px;
+  width: 150px;
+  height: auto;
 }
