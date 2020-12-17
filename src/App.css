@@ -128,15 +128,6 @@ section{
   width: 20vw;
   height: 20vw;
 }
-.project1 .square{
-  background-color: red;
-}
-.project2 .square{
-  background-color: purple;
-}
-.project3 .square{
-  background-color: blue;
-}
 .project-description{
   width: 70%;
 }
