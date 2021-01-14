@@ -28,8 +28,8 @@ const Project1 = (props) => {
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id non molestiae voluptates adipisci culpa, asperiores fugit, pariatur, velit suscipit iure nostrum provident ipsum ipsam quia laboriosam doloribus tempora ut vitae?
                 </p>
             </div>
+            <h3>Technology Used: </h3>
             <div className="tech-used">
-                <h3>Technology Used: </h3>
                 <img src={cssLogo} alt="CSS" className ="logoProjects"/>
                 <img src={htmlLogo} alt="HTML" className ="logoProjects html-logo"/>
                 <img src={jsLogo} alt="JavaScript" className ="logoProjects js-logo"/>

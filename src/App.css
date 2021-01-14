@@ -113,6 +113,13 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 300ms ease-in-out;
+}
+
+.project.hidden{
+  display: none;
+  /* transform: ; */
+  animation: fadeIn ease 2s;
 }
 
 .project-images{
@@ -124,6 +131,7 @@ section{
   margin: 2vw;
   width: 20vw;
   height: 20vw;
+  border-radius: 8%;
 }
 .project-description{
   width: 70%;
@@ -145,12 +153,17 @@ section{
 
 .tech-used{
   z-index: 997;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
 }
 
 .logoProjects{
   margin: 10px;
   width: 70px;
   height: auto;
+  align-self: center;
 }
 
 .express-logo{
@@ -158,10 +171,4 @@ section{
   width: 150px;
   height: auto;
 }
-
-.project.hidden{
-  display: none;
-  /* transform: ; */
-  animation: fadeIn ease 20s;
-  /* transition: all 300ms ease-in-out; */
-}
+ 
