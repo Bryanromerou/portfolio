@@ -20,7 +20,7 @@ const Project1 = (props) => {
                 <img src={fourthImage} alt="Fourth" className ="square"/>
             </div>
             <div className="project-description">
-                <a href="https://sleepy-mesa-13114.herokuapp.com/">Check iit Out!</a>
+                <a href="https://sleepy-mesa-13114.herokuapp.com/">Check it Out!</a>
                 <h3>Description</h3>
                 <p>
                     <i>Thought Provoking Questions</i> is an app that welcome those who have questions that there are no solid answers to.
