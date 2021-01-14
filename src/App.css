@@ -159,6 +159,9 @@ section{
   height: auto;
 }
 
-.hidden{
+.project.hidden{
   display: none;
+  /* transform: ; */
+  animation: fadeIn ease 20s;
+  /* transition: all 300ms ease-in-out; */
 }

@@ -20,7 +20,9 @@ const Project2 = (props) => {
                 <img src={fourthImage} alt="Fourth" className ="square"/>
             </div>
             <div className="project-description">
-                <a href="https://dryft.herokuapp.com/">Check it Out</a>
+                <a href="https://dryft.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Here!</a>
+                <a href="https://github.com/jedgodsey/dryft" target="_blank" rel="noopener noreferrer">Github</a>
+
                 <h3>Description</h3>
                 <p>
                 <i>DRYFT</i> is a travel blogging and social site dedicated to those who are always on the move.
