@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Fade from 'react-reveal/Fade';
 import Project1 from './Project1';
 import Project2 from './Project2';
 import Project3 from './Project3';
@@ -35,28 +34,22 @@ const AllProjects = () => {
         <section className="allprojects" id="projects">
 
             <div className="project_buttons">
-                <h5 className="selectplease">Please Select a Number:    </h5>
-                {activeNumber == 0 ? <button onClick = {click_1} class="btn btn-dark" >1</button>: <button onClick = {click_1} class="btn btn-light">1</button>}
-                {activeNumber == 1 ? <button onClick = {click_2} class="btn btn-dark">2</button>: <button onClick = {click_2} class="btn btn-light">2</button>}
-                {activeNumber == 2 ? <button onClick = {click_3} class="btn btn-dark">3</button>: <button onClick = {click_3} class="btn btn-light">3</button>}
+                <p className="selectplease">Please Select a Number:    </p>
+                {activeNumber === 0 ? <button onClick = {click_1} className="btn btn-dark" >1</button>: <button onClick = {click_1} className="btn btn-light">1</button>}
+                {activeNumber === 1 ? <button onClick = {click_2} className="btn btn-dark">2</button>: <button onClick = {click_2} className="btn btn-light">2</button>}
+                {activeNumber === 2 ? <button onClick = {click_3} className="btn btn-dark">3</button>: <button onClick = {click_3} className="btn btn-light">3</button>}
             </div>
 
-            <div className ="myprojects">
-                <Fade opposite when={show1} >
-                    <div className = "slider">
-                        {allprojects[0]}
-                    </div>
-                </Fade>
-                <Fade opposite when={show2} >
-                    <div className = "slider">
-                        {allprojects[1]}
-                    </div>
-                </Fade>
-                <Fade opposite when={show3} >
-                    <div className = "slider">
-                        {allprojects[2]}
-                    </div>
-                </Fade>
+            <div className ="projects">
+                <div className = {`project ${show1 || "hidden"}`}>
+                    {allprojects[0]}
+                </div>
+                <div className = {`project ${show2 || "hidden"}`}>
+                    {allprojects[1]}
+                </div>
+                <div className = {`project ${show3 || "hidden"}`}>
+                    {allprojects[2]}
+                </div>
             </div>
 
         </section>

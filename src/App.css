@@ -161,3 +161,7 @@ section{
   width: 150px;
   height: auto;
 }
+
+.hidden{
+  display: none;
+}

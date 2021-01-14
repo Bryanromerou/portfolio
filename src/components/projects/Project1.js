@@ -14,10 +14,10 @@ const Project1 = (props) => {
         <div className = "project project1">
             <h2>Thought Provoking Questions</h2>
             <div className="project-images">
-                <img src={firstImage} alt="First Picture" className ="square"/>
-                <img src={secondImage} alt="First Picture" className ="square"/>
-                <img src={thirdImage} alt="First Picture" className ="square"/>
-                <img src={fourthImage} alt="First Picture" className ="square"/>
+                <img src={firstImage} alt="First" className ="square"/>
+                <img src={secondImage} alt="Second" className ="square"/>
+                <img src={thirdImage} alt="Third" className ="square"/>
+                <img src={fourthImage} alt="Fourth" className ="square"/>
             </div>
             <div className="project-description">
                 <a href="https://sleepy-mesa-13114.herokuapp.com/">Check iit Out!</a>
