@@ -24,8 +24,7 @@ const Project1 = (props) => {
                 <a href="https://github.com/Bryanromerou/thought-provoking-questions" target="_blank" rel="noopener noreferrer">Github</a>
                 <h3>Description</h3>
                 <p>
-                    <i>Thought Provoking Questions</i> is an app that welcome those who have questions that there are no solid answers to.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id non molestiae voluptates adipisci culpa, asperiores fugit, pariatur, velit suscipit iure nostrum provident ipsum ipsam quia laboriosam doloribus tempora ut vitae?
+                    <i>Thought Provoking Questions</i> is a note taking app that is catered to students that are currently attending anatomy Courses. The user can create and modify a virtual body by adding muscles onto their avatar.Once the muscle has been added, the user then has the ability to add, delete, and modify questions about that muscle.
                 </p>
             </div>
             <h3>Technology Used: </h3>
