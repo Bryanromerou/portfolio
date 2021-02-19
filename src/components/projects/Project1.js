@@ -7,24 +7,22 @@ import expressLogo from '../../icons/ExpressJS.png';
 import firstImage from '../../icons/project1/1.png';
 import secondImage from '../../icons/project1/2.png';
 import thirdImage from '../../icons/project1/3.png';
-import fourthImage from '../../icons/project1/4.png';
 
 const Project1 = (props) => {
     return (
         <div className = "project project1">
-            <h2>Thought Provoking Questions</h2>
+            <h2 className="project-title">Thought Provoking Questions</h2>
             <div className="project-images">
                 <img src={firstImage} alt="First" className ="square"/>
                 <img src={secondImage} alt="Second" className ="square"/>
                 <img src={thirdImage} alt="Third" className ="square"/>
-                <img src={fourthImage} alt="Fourth" className ="square"/>
             </div>
             <div className="project-description">
-                <a href="https://sleepy-mesa-13114.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Here!</a>
+                <a href="https://sleepy-mesa-13114.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Here!</a><br/>
                 <a href="https://github.com/Bryanromerou/thought-provoking-questions" target="_blank" rel="noopener noreferrer">Github</a>
                 <h3>Description</h3>
                 <p>
-                    <i>Thought Provoking Questions</i> is a note taking app that is catered to students that are currently attending anatomy Courses. The user can create and modify a virtual body by adding muscles onto their avatar.Once the muscle has been added, the user then has the ability to add, delete, and modify questions about that muscle.
+                    <i>Thought Provoking Questions</i> is an app that welcome those who have questions that there are no solid answers to. Users are able to add, delete, and edit Questions and reply to other's questions.
                 </p>
             </div>
             <h3>Technology Used: </h3>

@@ -7,20 +7,18 @@ import postgresLogo from '../../icons/postgresql.png';
 import firstImage from '../../icons/project2/1.png';
 import secondImage from '../../icons/project2/2.png';
 import thirdImage from '../../icons/project2/3.png';
-import fourthImage from '../../icons/project2/4.png';
 
 const Project2 = (props) => {
     return (
         <div className = "project project2">
-            <h2>Wayfayer</h2>
+            <h2 className="project-title">Wayfayer</h2>
             <div className="project-images">
                 <img src={firstImage} alt="First" className ="square"/>
                 <img src={secondImage} alt="Second" className ="square"/>
                 <img src={thirdImage} alt="Third" className ="square"/>
-                <img src={fourthImage} alt="Fourth" className ="square"/>
             </div>
             <div className="project-description">
-                <a href="https://dryft.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Here!</a>
+                <a href="https://dryft.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Here!</a><br/>
                 <a href="https://github.com/jedgodsey/dryft" target="_blank" rel="noopener noreferrer">Github</a>
 
                 <h3>Description</h3>

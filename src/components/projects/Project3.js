@@ -3,23 +3,21 @@ import cssLogo from '../../icons/css.png';
 import htmlLogo from '../../icons/html.png';
 import jsLogo from '../../icons/js.png';
 import jqueryLogo from '../../icons/jquery.png';
-import firstImage from '../../icons/project3/1.png';
 import secondImage from '../../icons/project3/2.png';
 import thirdImage from '../../icons/project3/3.png';
-import fourthImage from '../../icons/project3/4.png';
+import firstImage from '../../icons/project3/4.png';
 
 const Project3 = (props) => {
     return (
         <div className = "project project3">
-            <h2>Anatomy is awesome!</h2>
+            <h2 className="project-title">Anatomy is awesome!</h2>
             <div className="project-images">
                 <img src={firstImage} alt="First" className ="square"/>
                 <img src={secondImage} alt="Second" className ="square"/>
                 <img src={thirdImage} alt="Third" className ="square"/>
-                <img src={fourthImage} alt="Fourth" className ="square"/>
             </div>
             <div className="project-description">
-                <a href="https://floating-escarpment-82475.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Here!</a>
+                <a href="https://floating-escarpment-82475.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Here!</a><br/>
                 <a href="https://github.com/Bryanromerou/anatomy-is-awesome" target="_blank" rel="noopener noreferrer">Github</a>
 
                 <h3>Description</h3>

@@ -9,10 +9,12 @@ const AboutMe = () => {
                     Hello, I'm <span> Bryan Romero </span>
                 </h1>
                 <p className = "aboutme-summary">
-                I am a Software Engineer with a background in Bank Operations. I hope to use my ability to adapt and meet tight deadlines to immediately make an impact on a team. I am experienced in technologies such as React, Express, Django, MongoDB and PostgreSQL. Being that new technology is always around the corner, I will continue to use my adaptability to learn as much as I can.
+                    I am a Software Engineer with a background in Bank Operations. I hope to use my ability to adapt and meet tight deadlines to immediately make an impact on a team. I am experienced in technologies such as React, Express, Django, MongoDB and PostgreSQL. Being that new technology is always around the corner, I will continue to use my adaptability to learn as much as I can.
                 </p>
-                <h5>Skilled in technologies such as: </h5>
-                <AllStack/>
+                <div className="aboutme-tech">
+                    <h5>Skilled in technologies such as: </h5>
+                    <AllStack/>
+                </div>
             </div>
         </section>
     );
