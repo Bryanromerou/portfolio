@@ -1,6 +1,6 @@
 :root {
   --color1: #191b1b;
-  --color2: #d8d6ca;
+  --color2: #ffffff;
   --color3: #d3d2ce;
   --color4: #4a4d49;
   --color5: #30332f;
@@ -62,6 +62,9 @@ section{
 }
 
 #aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--color3);
   min-height: 100vh;
 }
@@ -97,7 +100,8 @@ section{
 .aboutme-content{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   margin: 10vh 10vw;
 }
 .aboutme-tech{
