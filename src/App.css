@@ -111,7 +111,9 @@ section{
 }
 
 /*************************** Projects ****************************/
-
+.project-title{
+  text-decoration: underline;
+}
 .project{
   height: 100%;
   display: flex;
