@@ -25,8 +25,10 @@ const Project3 = (props) => {
                     <i> Anatomy is Awesome! </i> is a note taking app that is catered to students that are currently attending Anatomy courses. To start just create a profile and adding your name. When creating a user a body will appear just with bones. Pick one of the 4 Major Body Sections (Head, Arms, Legs, and Torso). Once picking on the body section select the muscle to add on to the body. Once the muscle is on the body the user will be able to make notes about that muscle and save it to the database so that others could see their notes. The goal is the completely fill the Skeleton and to take notes worthy of saving.
                 </p>
             </div>
+            
+            <h4>Technology Used: </h4>
+
             <div className="tech-used">
-                <h3>Technology Used: </h3>
                 <img src={cssLogo} alt="CSS" className ="logoProjects"/>
                 <img src={htmlLogo} alt="HTML" className ="logoProjects html-logo"/>
                 <img src={jsLogo} alt="JavaScript" className ="logoProjects js-logo"/>

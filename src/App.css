@@ -16,7 +16,7 @@
   padding: 0px 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: var(--color1);
   position: fixed;
   z-index: 999;
@@ -112,7 +112,7 @@ section{
 
 /*************************** Projects ****************************/
 .project-title{
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .project{
@@ -155,9 +155,6 @@ section{
 .btn{
   width: 70px;
   margin: 4px;
-}
-.selectplease{
-  display: inline;
 }
 
 .tech-used{

@@ -25,7 +25,7 @@ const Project1 = (props) => {
                     <i>Thought Provoking Questions</i> is an app that welcome those who have questions that there are no solid answers to. Users are able to add, delete, and edit Questions and reply to other's questions.
                 </p>
             </div>
-            <h3>Technology Used: </h3>
+            <h4>Technology Used: </h4>
             <div className="tech-used">
                 <img src={cssLogo} alt="CSS" className ="logoProjects"/>
                 <img src={htmlLogo} alt="HTML" className ="logoProjects html-logo"/>
