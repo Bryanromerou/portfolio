@@ -10,15 +10,9 @@ const AllProjects = () => {
         <section className="allprojects" id="projects">
 
             <div className ="projects">
-                <div className = {`project`}>
-                    {allprojects[0]}
-                </div>
-                <div className = {`project`}>
-                    {allprojects[1]}
-                </div>
-                <div className = {`project`}>
-                    {allprojects[2]}
-                </div>
+                {allprojects[0]}
+                {allprojects[1]}
+                {allprojects[2]}
             </div>
 
         </section>

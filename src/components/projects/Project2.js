@@ -12,20 +12,21 @@ const Project2 = (props) => {
     return (
         <div className = "project project2">
             <h2 className="project-title">Wayfayer</h2>
+
             <div className="project-images">
                 <img src={firstImage} alt="First" className ="square"/>
                 <img src={secondImage} alt="Second" className ="square"/>
                 <img src={thirdImage} alt="Third" className ="square"/>
             </div>
+
             <div className="project-description">
                 <a href="https://dryft.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Here!</a><br/>
                 <a href="https://github.com/jedgodsey/dryft" target="_blank" rel="noopener noreferrer">Github</a>
 
                 <h3>Description</h3>
-                <p>
-                <i>DRYFT</i> is a travel blogging and social site dedicated to those who are always on the move.
-                To signup, users must enter their relevant profile info, as well as select the city in the world they happen to be in at the moment. Optionally, they can also include a profile picture of themselves. Within the app, the user will be able to find and post about any city in the world as well as comment on the posts other users have made.</p>
+                <p><span>DRYFT</span> is a travel blogging and social site dedicated to those who are always on the move. To signup, users must enter their relevant profile info, as well as select the city in the world they happen to be in at the moment. Optionally, they can also include a profile picture of themselves. Within the app, the user will be able to find and post about any city in the world as well as comment on the posts other users have made.</p>
             </div>
+            
             <div className="tech-used">
                 <h3>Technology Used: </h3>
                 <img src={htmlLogo} alt="HTML" className ="logoProjects html-logo"/>
