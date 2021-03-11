@@ -22,7 +22,7 @@ const Project1 = (props) => {
                 <a href="https://github.com/Bryanromerou/thought-provoking-questions" target="_blank" rel="noopener noreferrer">Github</a>
                 <h3>Description</h3>
                 <p>
-                    <i>Thought Provoking Questions</i> is an app that welcome those who have questions that there are no solid answers to. Users are able to add, delete, and edit Questions and reply to other's questions.
+                    <i>Thought Provoking Questions</i> is an app that welcome those who have questions that there are no solid answers to. Users are able to add, delete, and edit Questions and reply to other's questions. This full stack application was built with React.js in the front end and a RESTful Api in the backend with MongoDB and Node. It also contains authentication and uses redux to keep the users information in the global state.
                 </p>
             </div>
             <h4>Technology Used: </h4>
