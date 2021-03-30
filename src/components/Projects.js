@@ -34,7 +34,7 @@ const Projects = (props) => {
         />
       <Project 
         name="Anatomy-is-Awesome"
-        description = {["Anatomy is Awesome! is a note taking app that is catered to students that are currently attending Anatomy courses. To start just create a profile and adding your name. When creating a user a body will appear just with bones. Pick one of the 4 Major Body Sections (Head, Arms, Legs, and Torso). Once picking on the body section select the muscle to add on to the body. Once the muscle is on the body the user will be able to make notes about that muscle and save it to the database so that others could see their notes. The goal is the completely fill the Skeleton and to take notes worthy of saving."]}
+        description = {["Anatomy is Awesome! is a note taking app that is catered to students that are currently attending Anatomy courses. Pick one of the 4 Major Body Sections (Head, Arms, Legs, and Torso). Once picking on the body section select the muscle to add on to the body. After the muscle is placed on the body, the user will be able to make notes about that muscle and save it to the database so that others could may see them.","Anatomy is awesome uses the TinyMCE Api to allow users to create custom notes. Those notes are then saved to the MongoDB Atlas’ Cloud Server with the help of Node and Express.js. The goal is to completely cover the body in muscles and that progress is saved through our User Model."]}
         github = "https://github.com/Bryanromerou/anatomy-is-awesome"
         live_link = "https://floating-escarpment-82475.herokuapp.com/"
         images = {[image3_1,image3_2,image3_3]}
