@@ -23,6 +23,7 @@ const Carousel = ({images}) => {
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+      loop={true}
     >
       {image_props}
     </Swiper>
