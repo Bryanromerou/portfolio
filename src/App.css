@@ -54,11 +54,10 @@ nav{
 }
 .nav-link:hover{
   background-color: var(--accentColor);
-  border-radius: 5px;
 }
 
 .personalLogo{
-  width: 60px;
+  width: 600px;
   height: auto;
   fill: black;
   stroke: black;

@@ -8,7 +8,7 @@ const Project = (props) => {
     rootMargin: "100px",
     threshold: .7
   })
-  const image = (<Carousel images ={props.images} />)
+  const image = (<div className="project-image-wrapper"><Carousel images ={props.images} /></div>)
   const project_description = props.description.map((descrip,index)=>{
     return (<p className="project-bio" key={index}>{descrip}</p>)
   })

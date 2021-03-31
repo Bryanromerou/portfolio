@@ -44,10 +44,17 @@
   max-width: 50%;
   align-items: stretch;
   font-size: 18px;
-  padding: 16px;
+  // padding: 16px;
+  padding: 0px 30px;
 }
 .project-bio{
   margin-bottom: 10px;
+}
+.project-image-wrapper{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .project-description-links{
   font-size: 20px;
@@ -56,6 +63,10 @@
   margin: 20px;
   a{
     color: $main-color-dark;
+    &:hover{
+      text-decoration: underline;
+      text-decoration-color: $main-gray;
+    }
   }
   i{
     color: $accent-color;
@@ -88,5 +99,11 @@
     margin-top: 20px;
     width: 80vw;
     max-width: 100%;
+    padding: 16px;
+  }
+}
+@media screen and (max-width: 1600px) and (min-width: 1078px) {
+  .project-words{
+    padding: 0px 30px;
   }
 }

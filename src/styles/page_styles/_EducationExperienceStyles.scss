@@ -1,5 +1,14 @@
 .education_experience {
   display: flex;
+
+  .subsection-title{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  p{
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 .subsection {
   margin: 20px;
@@ -14,20 +23,9 @@
   transition: all 0.2s ease-in-out;
   width: 80px;
   height: auto;
-  filter: grayscale(100%);
+  filter: grayscale(30%);
 }
-.logo:hover {
-  filter: grayscale(0%);
-  z-index: 998;
-}
-.education_experience .subsection-title{
-  font-size: 25px;
-  font-weight: 500;
-}
-.education_experience p{
-  font-size: 18px;
-  line-height: 22px;
-}
+
 .listing-title{
   font-size: 20px;
   font-weight: bold;

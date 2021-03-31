@@ -34,6 +34,9 @@ footer {
   justify-content: space-evenly;
   a{
     color: $main-color-dark;
+    &:hover{
+      color: $accent-color;
+    }
   }
   i{
     color: $accent-color;
