@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="contact-me">
+    <footer className="contact-me" id="contact">
       <h3>Contact Me</h3>
       <div className="contact-links">
         <a href="https://www.linkedin.com/in/bryanuromero/">LinkedIn <i className="fab fa-linkedin"/></a>

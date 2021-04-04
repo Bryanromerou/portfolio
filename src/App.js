@@ -5,9 +5,10 @@ import EducationSection from './components/EducationSection';
 import ExperienceSection from './components/ExperienceSection';
 import Footer from './components/Footer';
 import HeadSection from './components/HeadSection';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import useElementOnScreen from './hooks/useElementOnScreen';
+import ResponsiveNav from './components/ResponsiveNav';
 
 function App() {
   const [ containerRef, isVisible ] = useElementOnScreen({
@@ -18,7 +19,8 @@ function App() {
   useEffect(()=>{console.log(isVisible)})
   return (
     <>
-      <Navbar dark={!isVisible}/>
+      {/* <Navbar dark={!isVisible}/> */}
+      <ResponsiveNav dark={!isVisible}/>
 
       <div className="main">
         <HeadSection reference={containerRef}/>
