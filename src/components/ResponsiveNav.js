@@ -5,7 +5,7 @@ import PersonalLogo from './PersonalLogo';
 const ResponsiveNav = ({dark}) => {
   return (
     <header className={`animate${dark?" dark-nav":" light-nav"}`}>
-      <h1 className="logo"><PersonalLogo dark={dark}/></h1>
+      <h1 className="logo"><Link smooth={true} to="main"><PersonalLogo dark={dark}/></Link></h1>
       <input type="checkbox" id="nav-toggle" className="nav-toggle"/>
       <nav>
         <ul>

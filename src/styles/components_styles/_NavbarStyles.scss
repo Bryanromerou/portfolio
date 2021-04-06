@@ -14,10 +14,6 @@ header{
   left: -9999px !important;
 }
 
-.nav-toggle:focus ~ .nav-toggle-label {
-  outline: 1px solid rgba(white, .75);
-}
-
 .nav-toggle-label {
   position: absolute;
   top: 0;
@@ -144,6 +140,7 @@ nav a {
   height: auto;
   fill: black;
   stroke: black;
+  cursor: pointer;
 }
 .dark-logo {
   animation: fill 1s ease forwards;
@@ -156,17 +153,15 @@ nav a {
   color: $main-color-light;
 }
 
-// .navbar-logo {
-//   margin-left: 4vw;
-// }
-// .navbar-links {
-//   margin-right: 4vw;
-// }
+nav a:hover{
+  cursor: pointer;
+}
 
-// .nav_line {
-//   border-left: 1px solid $main-color-light;
-// }
-
+@media screen and (max-width: 800px) {
+  nav a:hover{
+    color: $accent-color;
+  } 
+}
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
@@ -214,9 +209,9 @@ nav a {
   nav a {
     opacity: 1;
     position: relative;
-    &:hover{
-      cursor: pointer;
-    }
+    // &:hover{
+    //   cursor: pointer;
+    // }
   }
   
   nav a::before {
