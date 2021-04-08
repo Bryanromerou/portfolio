@@ -15,7 +15,7 @@ const EducationSection = () => {
       </div>
       <div className = "education-listing">
         <img src={dominguez_hills} alt="California State University of Dominguez Hills" className="logo-v2"/>
-        <p className="listing-title"><span>California State University of Dominguez Hills</span> - Bachelor of Computer Science [June 2022]</p>
+        <p className="listing-title"><span>California State University of Dominguez Hills</span> - Bachelor of Computer Science [December 2021]</p>
         {/* <p>Currently Attending CSUDH and am 1 year away from graduating with a Bachelor's in Computer Science. Where I passed classes such as "Data Structures" and "Computer Ethics".</p> */}
       </div>
       {/* <div className = "education-listing"> */}
