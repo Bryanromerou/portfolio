@@ -9,18 +9,29 @@ const ExperienceSection = () => {
       <p className="subsection-title">Experience</p>
       <div className = "experience-listing">
         <img src={general_assembly} alt="General Assembly" className="logo-v2"/>
-        <p className="listing-title">General Assembly - [Software Engineering Immersive Teacher's Assistant]</p>
-        <p>I am currently working as a Teachers Assistant at General Assembly where support students in understanding computer programming fundamentals such as object oriented programming, data structures, and coding best practices.</p>
+        <p className="listing-title"><span>General Assembly</span> - Software Engineering Immersive Teacher's Assistant [2021-Present]</p>
+        <div className="experience-description">
+          <p>• Support students in understanding computer programming fundamentals such as object-oriented programming, data structures, and coding best practices.</p>
+          <p>• Aid in implementation of full stack technologies and languages and frameworks such as Python, Django, SQL, Express, React, Node, HTML, CSS, JavaScript, Third Party APIs, etc.</p>
+          <p>• Guide students in troubleshooting/debugging their full stack applications and API’s.</p>
+        </div>
       </div>
       <div className = "experience-listing">
         <img src={the_fed} alt="Federal Reserve Bank Of San Francisco" className="logo-v2"/>
-        <p className="listing-title">Federal Reserve Bank Of San Francisco - [Cash Clerk]</p>
-        <p>Worked at the Federal Reserve Bank Of San Francisco for 7 months, where I learned how to troubleshoot software and equipment. During my time there the team i was assigned to was in charge of proving currency to the population during a global pandemic. This was able to do, due to consistent communication that we had as a team and the hard work that each of us put in on a daily basis.</p>
+        <p className="listing-title"><span>Federal Reserve Bank Of San Francisco</span> - Cash Clerk [2020]</p>
+        <div className="experience-description">
+          <p>• Collaborated in a team environment to accurately fulfill cash orders on a daily basis.</p>
+          <p>• Troubleshot problems with internal software and equipment and tested and inspected heavy machinery, ensuring that equipment was ready for the following work week. </p>
+        </div>
       </div>
       <div className = "experience-listing">
         <img src={wells_fargo} alt="Wells Fargo" className="logo-v2"/>
-        <p className="listing-title">Wells Fargo - [Operations Clerk]</p>
-        <p>Worked at Wells Fargo in the Cash Operations for 4 years. Where I learned how to work in a team, meet deadlines, troubleshoot problems and most importantly I learned how to communicate effectively to ensure all task were done. Being that it was my first official Job I took every opportunity given to me and used every experience as a lesson, which gave me an opportunity to move on to the Federal Reserve Bank.</p>
+        <p className="listing-title"><span>Wells Fargo</span> - Operations Clerk [2016-2020]</p>
+        <div className="experience-description">
+          <p>• Received and processed cash deposits and provided credit on client accounts.</p>
+          <p>• Trained new employees and guided them through their on boarding process.</p>
+          <p>• Maintained above 99.97% accuracy and consistently surpassed production set standards.</p>
+        </div>
       </div>
     </div>
   );

@@ -1,9 +1,11 @@
 .education_experience {
   display: flex;
+  flex-direction: column;
 
   .subsection-title{
     font-size: 25px;
     font-weight: 500;
+    margin-bottom: 16px;
   }
   p{
     font-size: 18px;
@@ -12,11 +14,21 @@
 }
 .subsection {
   margin: 20px;
-  width: 44vw;
+  width: 90vw;
   padding: 0px 20px;
 }
-.left_border {
-  border-left: 1px solid $accent-color;
+
+.education-listing{
+  display: flex;
+  align-items: center;
+}
+.experience-description p{
+  margin: 6px;
+}
+
+.bottom_border {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--accentColor);
 }
 .logo-v2 {
   margin: 10px;
@@ -27,9 +39,9 @@
 
 .listing-title{
   font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: $accent-color;
+  span{
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 500px) {
