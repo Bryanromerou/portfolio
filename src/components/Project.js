@@ -28,9 +28,12 @@ const Project = (props) => {
         </div>
 
         <div className="project-description-links">
-          <a href={props.github} target="_blank" rel="noopener noreferrer">
-            Visit Repo <i className="fab fa-github"></i>
-          </a>
+          {
+            Boolean(props.github) &&
+            <a href={props.github} target="_blank" rel="noopener noreferrer">
+              Visit Repo <i className="fab fa-github"></i>
+            </a>
+          }
           {
             Boolean(props.live_link) &&
             <a href={props.live_link} target="_blank" rel="noopener noreferrer">
