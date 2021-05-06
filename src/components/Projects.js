@@ -39,7 +39,6 @@ const Projects = (props) => {
         name="DRYFT"
         description = {["DRYFT is a travel blogging and social media site dedicated to those who are always on the move. Where one could share pictures of places that they have visited and engage with others.","DRYFT was a project done in collaboration with 3 other General Assembly graduates. This application was built using python’s framework, Django, and PostgreSQL for the database. I played an important role in creating full CRUD functionality with the user’s information and in implementing the Google Map’s API."]}
         github = "https://github.com/jedgodsey/dryft"
-        // live_link = "https://dryft.herokuapp.com/"
         images = {[image2_1,image2_2,image2_3]}
         stack = {["Python","Django","PostgreSQL","JavaScript","Authentication","CSS","HTML","Google Maps API"]}
         />
