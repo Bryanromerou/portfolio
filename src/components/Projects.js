@@ -22,7 +22,7 @@ const Projects = (props) => {
       <h2 className="projects-title">My Projects</h2>
       <Project 
         name="Red Cross Survey Analytics Dashboard"
-        description = {["The Redcross partnered with Intel to build a full stack application that uses Natural Language Processing to analyze and visualize RedCross survey data to better use our volunteering resources.","I am helping by fixing issues such as front end bugs, adding extra security for different API routes, building a User Management System, and helping translating the website to Spanish.  "]}
+        description = {["The Redcross partnered with Intel to build a full stack application that uses Natural Language Processing to analyze and visualize RedCross survey data to better use our volunteering resources.","I am currently helping by fixing issues such as front end bugs, adding extra security for different API routes, building a User Management System, and helping translating the website to Spanish.  "]}
         images = {[image4_1,image4_2,image4_3,image4_4,image4_5]}
         stack = {["Node.js","React","Express","JavaScript","MongoDB","Python", "Flask", "NLP","Bcrypt","Authentication","JWT","HTML","CSS", "Ant Design"]}
         />
