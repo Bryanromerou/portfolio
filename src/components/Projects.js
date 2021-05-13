@@ -19,7 +19,7 @@ import image4_5 from '../project_images/RedCrossProject/Redcross5.png';
 const Projects = (props) => {
   return (
     <section ref={props.reference} className="projects" id="projects">
-      <h2 className="projects-title">My Projects</h2>
+      <h2 className="projects-title">Projects</h2>
       <Project 
         name="Red Cross Survey Analytics Dashboard"
         description = {["The Redcross partnered with Intel to build a full stack application that uses Natural Language Processing to analyze and visualize RedCross survey data to better use our volunteering resources.","I am currently helping by fixing issues such as front end bugs, adding extra security for different API routes, building a User Management System, and helping translating the website to Spanish.  "]}
